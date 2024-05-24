@@ -2,10 +2,19 @@
     .searchBox{
         margin-left: 0px;
     }
+    #creators .carousel-item a {
+        flex: 1 0 25%;
+        max-width: 25%;
+    }
 }
 
 @media screen and (max-width: 575px){
     .category{
        display: none; 
+    }
+
+    #creators .carousel-item a {
+        flex: 1 0 50%; 
+        max-width: 50%;
     }
 }
