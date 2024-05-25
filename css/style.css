@@ -218,4 +218,41 @@
 
 .contentForm{
     background-color: #a5a5a550;
+    padding-bottom: 120px;
+}
+
+.contentForm form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contentForm form .inputBox{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 35%;
+    margin: 5px;
+}
+
+.contentForm form label{
+    font-weight: 700;
+}
+
+.contentForm form input{
+    padding: 10px;
+}
+
+.contentForm form button{
+    max-width: 160px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: -23px;
+    border-radius: 18px;
+    border: none;
+    color: #fff;
+    background-color: #f3980f;
+    text-transform: uppercase;
 }
