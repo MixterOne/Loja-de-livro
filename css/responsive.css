@@ -1,8 +1,8 @@
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     .searchBox{
         margin-left: 0px;
     }
-    #creators .carousel-item a {
+    #authors .carousel-item a {
         flex: 1 0 25%;
         max-width: 25%;
     }
@@ -13,7 +13,7 @@
        display: none; 
     }
 
-    #creators .carousel-item a {
+    #authors .carousel-item a {
         flex: 1 0 50%; 
         max-width: 50%;
     }

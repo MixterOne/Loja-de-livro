@@ -107,13 +107,13 @@
     width: 100%;
 }
 
-.authors .titleAuthors{
+.titleSections{
     width: 100%;
     text-align: center;
     margin: 30px 0px;
 }
 
-.authors .titleAuthors h2{
+.titleSections h2{
     font-size: 28px;
     font-weight: 700;
 }
@@ -137,7 +137,7 @@
     border: 2px solid black;
 }
 
-#creators{
+#authors{
     height: 40vh;
     display: flex;
     justify-content: center;
@@ -145,16 +145,71 @@
 }
 
 
-#creators .carousel-item a{
+#authors .carousel-item a{
     flex: 1 0 12.5%;
     max-width: 12.5%;
     border-radius: 40px;
     margin: 0px 10px;
 }
 
-#creators .carousel-item a img{
+#authors .carousel-item a img{
     border-radius: 100px;
     margin-bottom: 4em;
     width: 100%;
     height: 100%;
+}
+
+/*RELEASES*/
+
+.releases{
+    height: 120vh;
+}
+
+.releases nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.releases nav p{
+    padding: 2px 40px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: #71717150;
+}
+
+.releases .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.releases .row .collumCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.releases .card{
+    width: 330px;
+    margin: 5px 0px;
+}
+
+.releases .card img{
+    height: 330px;
+}
+
+.releases .card-body{
+    text-align: center;
+}
+
+.releases .card-body h5{
+    text-transform: uppercase;
+}
+
+.releases .card-body .card-text{
+    margin-bottom: 0px;
 }
