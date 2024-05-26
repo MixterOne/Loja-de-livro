@@ -17,4 +17,12 @@
         flex: 1 0 50%; 
         max-width: 50%;
     }
+
+    footer .row h6{
+        font-size: 12px;
+    }
+
+    footer img{
+        width: 100px;
+    }
 }
